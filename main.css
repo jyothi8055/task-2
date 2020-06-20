@@ -1,0 +1,32 @@
+.main{
+	width:80%;
+	margin:0% auto;
+	display: flex;
+	flex-grow: wrap;
+
+}
+.article1{
+	width: 80%;
+	text-align: center;
+	background-color: aqua;
+}
+/**media for mobile view**/
+@media screen and (min-width: 320px) and (max-width:480px){
+   body{
+         background:#81D6D1;
+ }
+ .article1{
+	width: 80%;
+	text-align: center;
+	background-color: aqua;
+}
+/**media for tablet view**/
+@media screen and (min-width: 320px) and (max-width:480px){
+   body{
+         background:#81D6D1;
+ }
+ .article1{
+	width: 80%;
+	text-align: center;
+	background-color: aqua;
+}
